@@ -109,7 +109,7 @@ void loop()
       digitalWrite(m12, LOW);
       digitalWrite(m21, HIGH);
       digitalWrite(m22, LOW);
-      delay(1000);
+      delay(500);
       digitalWrite(m11, HIGH);
       digitalWrite(m12, LOW);
       digitalWrite(m21, LOW);
@@ -129,7 +129,7 @@ void loop()
       digitalWrite(m12, LOW);
       digitalWrite(m21, HIGH);
       digitalWrite(m22, LOW);
-                                 
+      delay(500);                          
       digitalWrite(m11, LOW);
       digitalWrite(m12, LOW);
       digitalWrite(m21, HIGH);
